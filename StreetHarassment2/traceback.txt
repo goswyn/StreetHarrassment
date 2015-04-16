@@ -1,0 +1,21 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 93, in script
+    jump slob_1_sexy_1
+ScriptError: could not find label 'slob_1_sexy_1'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 93, in script
+    jump slob_1_sexy_1
+  File "/Users/Katherine/Downloads/renpy-6.99.1-sdk/renpy/ast.py", line 1480, in execute
+    rv = renpy.game.script.lookup(target)
+  File "/Users/Katherine/Downloads/renpy-6.99.1-sdk/renpy/script.py", line 602, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'slob_1_sexy_1'.
+
+Darwin-14.1.0-x86_64-i386-64bit
+Ren'Py 6.99.1.329
+Street Harassment 0.2

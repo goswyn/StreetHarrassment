@@ -1,0 +1,9 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 277: Line is indented, but the preceding scene statement statement does not expect a block. Please check this line's indentation.
+    e "This is the ending you get if you choose 3 pieces of sexy clothing."
+    ^
+
+Ren'Py Version: Ren'Py 6.99.1.329
